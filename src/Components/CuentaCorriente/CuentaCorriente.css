@@ -1,0 +1,124 @@
+.cuenta-corriente-container {
+  font-family: 'Arial', sans-serif;
+  max-width:80%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuenta-corriente-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.cuenta-corriente-details {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.cuenta-corriente-saldo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cuenta-corriente-transacciones-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cuenta-corriente-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.cuenta-corriente-table th, .cuenta-corriente-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.cuenta-corriente-table th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cuenta-corriente-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.cuenta-corriente-table tr:hover {
+  background-color: #ddd;
+}
+
+.cuenta-corriente-table tr.egreso {
+  color: #e74c3c;
+}
+
+.cuenta-corriente-table tr.ingreso {
+  color: #16b453;
+}
+
+.cuenta-corriente-loading,
+.cuenta-corriente-error,
+.cuenta-corriente-not-found {
+  text-align: center;
+  font-size: 18px;
+  color: #e74c3c;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .cuenta-corriente-container {
+    padding: 10px;
+  }
+
+  .cuenta-corriente-title {
+    font-size: 20px;
+  }
+
+  .cuenta-corriente-saldo {
+    font-size: 18px;
+  }
+
+  .cuenta-corriente-transacciones-title {
+    font-size: 16px;
+  }
+
+  .cuenta-corriente-table th, .cuenta-corriente-table td {
+    padding: 6px;
+  }
+
+  .pdf-button {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cuenta-corriente-title {
+    font-size: 18px;
+  }
+
+  .cuenta-corriente-saldo {
+    font-size: 16px;
+  }
+
+  .cuenta-corriente-transacciones-title {
+    font-size: 14px;
+  }
+
+  .cuenta-corriente-table th, .cuenta-corriente-table td {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

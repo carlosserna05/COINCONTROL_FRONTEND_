@@ -1,0 +1,35 @@
+.tipo-interes-container {
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tipo-interes-container h2 {
+    color: #34495e;
+    text-align: center;
+  }
+  
+  .tipo-interes-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tipo-interes-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tipo-interes-list li:hover {
+    background-color: #eaeaea;
+  }
+  
+  .tipo-interes-icon {
+    margin-right: 10px;
+    color: #e67e22;
+  }
+  

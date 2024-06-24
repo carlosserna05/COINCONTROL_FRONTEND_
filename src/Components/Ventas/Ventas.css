@@ -1,0 +1,113 @@
+/* Estilos para el componente Ventas */
+.ventas-container {
+  padding: 20px;
+  background-color: #f7f9fc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.ventas-container h2, .ventas-container h3 {
+  color: #34495e;
+  text-align: center;
+}
+
+.ventas-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ventas-form div {
+  flex: 1 1 45%;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.ventas-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.ventas-form input[type="text"],
+.ventas-form input[type="number"],
+.ventas-form input[type="date"] {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ventas-form input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+.ventas-form button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ventas-form button:hover {
+  background-color: #2980b9;
+}
+
+.ventas-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.ventas-table th, .ventas-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.ventas-table th {
+  background-color: #34495e;
+  color: white;
+}
+
+.ventas-table td {
+  background-color: #ffffff;
+}
+
+.ventas-table tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+.ventas-table tr:hover td {
+  background-color: #eaeaea;
+}
+
+.ventas-table button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.ventas-table button:hover {
+  color: #e74c3c;
+}
+
+.ventas-table .faEdit {
+  color: #2980b9;
+}
+
+.ventas-table .faTrashAlt {
+  color: #e74c3c;
+}
+.ventas-table .faEYE{
+  color: #3ce7d0;
+}
