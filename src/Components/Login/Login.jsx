@@ -56,20 +56,20 @@ export const Login = ({ setLogin, setUsuarioObject }) => {
 
         <h2><FontAwesomeIcon icon={faInfoCircle} /> Información Importante</h2>
         <ul className="info-list">
-          <li><FontAwesomeIcon icon={faCreditCard} /> <strong>Control de cuenta corriente:</strong> Administrar y/o gestionar cuenta bancaria sobre diferentes movimientos financieros dentro de la cuenta.</li>
-          <li><FontAwesomeIcon icon={faMoneyBillWave} /> <strong>Créditos:</strong> Sumas de dinero ingresadas en una cuenta que se deben de cancelar en un lapso establecido.</li>
-          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de interés:</strong> Rendimiento obtenido a causa de una inversión realizada, siendo considerado ganancia generada.</li>
-          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa efectiva periódica:</strong> Tasa que actúa sobre el capital de la operación financiera.</li>
-          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa nominal periódica:</strong> Tasa anunciada en una inversión, teniendo en cuenta el lapso de tiempo establecido, y la capitalización determinada.</li>
-          <li><FontAwesomeIcon icon={faFileInvoiceDollar} /> <strong>Reportes de saldos en cuenta:</strong> Documentos detallados sobre lo relacionado con los movimientos financieros de una cuenta corriente, con la finalidad de gestionar las finanzas.</li>
-          <li><FontAwesomeIcon icon={faMoneyBillWave} /> <strong>Capital:</strong> Valor actual del dinero, inversión inicial, etc.</li>
-          <li><FontAwesomeIcon icon={faCreditCard} /> <strong>Bono:</strong> Instrumento financiero de deuda emitido por una entidad, con la finalidad de brindar un activo financiero al prestamista.</li>
-          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de Costo Efectiva Anual (TCEA):</strong> Tasa que incluye lo involucrado que se paga por un crédito. Compuesta por la tasa efectiva anual, cargos mensuales y cargo cobrado según la entidad financiera.</li>
-          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de Rendimiento Efectiva Anual (TREA):</strong> Tasa orientada a comparar el rendimiento total de un producto pasivo.</li>
-          <li><FontAwesomeIcon icon={faShieldAlt} /> <strong>Periodo de gracia:</strong> Lapso de tiempo desde el inicio del servicio del crédito que se genera, en el que el deudor no abona los intereses ni capital correspondientes a devolver, siendo generados estos intereses después de aquel periodo de tiempo.</li>
-          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Flujo de caja:</strong> Movimiento de dinero en efectivo que ingresa y sale del negocio en un tiempo determinado. Herramienta ideal para la medición del nivel de liquidez de una empresa.</li>
-          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Mercado financiero:</strong> Ambientes en el que se realizan intercambios de activos financieros, siendo los principales involucrados en estos procesos los agentes económicos. Este espacio está bajo la ley de la oferta y la demanda, siendo un mercado cambiante según se requiera.</li>
-          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Superintendencia de Banca, Seguros y AFP (SBS):</strong> Organismo encargado sobre la regulación y supervisión de los sistemas financieros. El principal objetivo es el de preservar los intereses de los depositantes y asegurados involucrados.</li>
+          <li><FontAwesomeIcon icon={faCreditCard} /> <strong>Control de cuenta corriente: </strong> Administrar y/o gestionar cuenta bancaria sobre diferentes movimientos financieros dentro de la cuenta.</li>
+          <li><FontAwesomeIcon icon={faMoneyBillWave} /> <strong>Créditos: </strong> Sumas de dinero ingresadas en una cuenta que se deben de cancelar en un lapso establecido.</li>
+          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de interés: </strong> Rendimiento obtenido a causa de una inversión realizada, siendo considerado ganancia generada.</li>
+          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa efectiva periódica: </strong> Tasa que actúa sobre el capital de la operación financiera.</li>
+          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa nominal periódica: </strong> Tasa anunciada en una inversión, teniendo en cuenta el lapso de tiempo establecido, y la capitalización determinada.</li>
+          <li><FontAwesomeIcon icon={faFileInvoiceDollar} /> <strong>Reportes de saldos en cuenta: </strong> Documentos detallados sobre lo relacionado con los movimientos financieros de una cuenta corriente, con la finalidad de gestionar las finanzas.</li>
+          <li><FontAwesomeIcon icon={faMoneyBillWave} /> <strong>Capital: </strong> Valor actual del dinero, inversión inicial, etc.</li>
+          <li><FontAwesomeIcon icon={faCreditCard} /> <strong>Bono: </strong> Instrumento financiero de deuda emitido por una entidad, con la finalidad de brindar un activo financiero al prestamista.</li>
+          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de Costo Efectiva Anual (TCEA): </strong> Tasa que incluye lo involucrado que se paga por un crédito. Compuesta por la tasa efectiva anual, cargos mensuales y cargo cobrado según la entidad financiera.</li>
+          <li><FontAwesomeIcon icon={faPercentage} /> <strong>Tasa de Rendimiento Efectiva Anual (TREA): </strong> Tasa orientada a comparar el rendimiento total de un producto pasivo.</li>
+          <li><FontAwesomeIcon icon={faShieldAlt} /> <strong>Periodo de gracia: </strong> Lapso de tiempo desde el inicio del servicio del crédito que se genera, en el que el deudor no abona los intereses ni capital correspondientes a devolver, siendo generados estos intereses después de aquel periodo de tiempo.</li>
+          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Flujo de caja: </strong> Movimiento de dinero en efectivo que ingresa y sale del negocio en un tiempo determinado. Herramienta ideal para la medición del nivel de liquidez de una empresa.</li>
+          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Mercado financiero: </strong> Ambientes en el que se realizan intercambios de activos financieros, siendo los principales involucrados en estos procesos los agentes económicos. Este espacio está bajo la ley de la oferta y la demanda, siendo un mercado cambiante según se requiera.</li>
+          <li><FontAwesomeIcon icon={faUniversity} /> <strong>Superintendencia de Banca, Seguros y AFP (SBS): </strong> Organismo encargado sobre la regulación y supervisión de los sistemas financieros. El principal objetivo es el de preservar los intereses de los depositantes y asegurados involucrados.</li>
         </ul>
       </div>
       <form onSubmit={handleSubmit} className="login-form">
