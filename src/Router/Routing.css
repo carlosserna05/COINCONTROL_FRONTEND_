@@ -5,7 +5,7 @@ body {
 }
 
 #nav {
-  background-color: #34495e;
+  background-color: #00c6af;
   color: white;
   padding: 15px 30px;
   display: flex;
@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 20px;
+  gap: 35px;
 }
 
 #nav ul li,
@@ -28,6 +28,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
+  font-weight: bold;
   transition: color 0.3s ease;
   display: flex;
   align-items: center;
@@ -35,12 +36,12 @@ body {
 }
 
 #nav ul a.active {
-  color: #3498db;
+  color: #014f46;
 }
 
 #nav ul a:hover,
 #nav ul li:hover {
-  color: #3498db;
+  color: #57948d
 }
 
 #layout {
@@ -49,7 +50,7 @@ body {
 }
 
 .logout-button {
-  background-color: #e74c3c;
+  background-color: #ca1400;
   padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;

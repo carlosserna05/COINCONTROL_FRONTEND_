@@ -6,7 +6,20 @@ import { faPiggyBank, faChartLine, faFileAlt } from '@fortawesome/free-solid-svg
 export const Home = () => {
   return (
     <div className="home-container">
-      <h1>Bienvenido a la Plataforma Financiera</h1>
+      <h1>Bienvenid@ a COINCONTROL</h1>
+
+      <section className="app-def">
+        <h2>¿Que es COINCONTROL?</h2>
+      
+        <p>COINCONTROL es una aplicación web que permite a los usuarios llevar de forma permanente el control de cuenta corriente, mediante créditos otorgados por pequeños establecimientos.</p>
+      
+      </section>
+      
+      <figure>
+        <img src="src/assets/finanzasimg.png" alt="" />
+      </figure>
+      
+
       <section className="info-section">
         <h2>Definiciones Generales y Conceptos Básicos</h2>
         <div className="info-grid">

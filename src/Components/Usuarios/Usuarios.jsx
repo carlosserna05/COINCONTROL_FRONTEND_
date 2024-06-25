@@ -176,12 +176,7 @@ export const Usuarios = ({ usuarioObject }) => {
                   >
                     <FontAwesomeIcon icon={faEdit} className="faEdit" />
                   </button>
-                  <button
-                    className="usuarios-button usuarios-delete"
-                    onClick={() => eliminarUsuario(usuario._id)}
-                  >
-                    <FontAwesomeIcon icon={faTrashAlt} className="faTrashAlt" />
-                  </button>
+
                 </td>
               </tr>
             ))}

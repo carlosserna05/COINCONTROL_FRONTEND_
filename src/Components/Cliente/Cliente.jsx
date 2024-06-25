@@ -125,7 +125,7 @@ export const Cliente = ({usuarioObject}) => {
               <th>DNI</th>
               <th>Nombres</th>
               <th>Correo</th>
-              <th>Tasa Moratoria (no poner %)</th>
+              <th>Tasa Moratoria</th>
               <th>Límite Crédito</th>
               <th>Fecha Pago Mensual</th>
               <th>Acciones</th>
@@ -141,12 +141,6 @@ export const Cliente = ({usuarioObject}) => {
                 <td>{cliente.limiteCredito}</td>
                 <td>{cliente.fechaPagoMensual}</td>
                 <td className="cliente-actions">
-                  <button
-                    onClick={() => eliminarCliente(cliente._id)}
-                    className="cliente-button cliente-delete"
-                  >
-                    <FontAwesomeIcon icon={faTrashAlt} className="faTrashAlt" />
-                  </button>
                   <button
                     onClick={() => editarCliente(cliente._id)}
                     className="cliente-button cliente-edit"

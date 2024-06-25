@@ -44,11 +44,11 @@ export const Login = ({ setLogin, setUsuarioObject }) => {
           <div className="participants-list-container">
             <h2>Integrantes</h2>
             <ul className="participants-list">
-              <li><strong>Mallma Espiritu, Franky Oswald</strong> - U20211C250</li>
-              <li><strong>Monasca Tolentino, Jesús Abel</strong> - U20201B337</li>
-              <li><strong>Panduro Rodriguez, Ivana</strong> - U20201C143</li>
-              <li><strong>Leon Asencios, Carlos Rodrigo</strong> - U202112351</li>
-              <li><strong>Serna Ventura, Carlos Alejandro</strong> - U202113516</li>
+              <li><strong>- Mallma Espiritu, Franky Oswald</strong> - U20211C250</li>
+              <li><strong>- Monasca Tolentino, Jesús Abel</strong> - U20201B337</li>
+              <li><strong>- Panduro Rodriguez, Ivana</strong> - U20201C143</li>
+              <li><strong>- Leon Asencios, Carlos Rodrigo</strong> - U202112351</li>
+              <li><strong>- Serna Ventura, Carlos Alejandro</strong> - U202113516</li>
             </ul>
           </div>
           <img className='participants-image' src='https://i.pinimg.com/originals/ef/a6/6d/efa66d84d8dfcefa527359ab296cc5b5.jpg' alt='Logo'></img>
